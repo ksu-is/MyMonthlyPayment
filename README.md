@@ -1,2 +1,2 @@
 # MyMonthlyPayment
-Be able to always know what the total of all of your bills are for the month
+Be able to always know what the total of all of your bills are for the month. MyMonthlyPayment will require the url and the login information to login into any website that bills are paid on, whether it's the bank account you make credit card payments on, a store credit card, utility bills, etc. Using the information from the data that is collected, you will be able to see the total amount due from all of your bills combined for the month.
