@@ -11,8 +11,8 @@
 
 + - [x] fork and clone new repository
 
-+ - [] add selenium
++ - [x] add selenium
 
-+ - [] use selenium to add forms 
++ - [x] use selenium to add forms 
  
 + - [] add code to scrape data
