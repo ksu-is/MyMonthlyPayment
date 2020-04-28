@@ -20,6 +20,19 @@ authentication = "hhtp://" + user_username + user_password + website_url
 driver.get(authentication + "/")
 
 
+from bs4 import BeautifulSoup
+import requests
+import csv
+# (url needed)
+soup = BeautifulSoup(source, 'lxml')
+payment = soup.find_all('due')
+total_payments = int("payment") + 
+
+
+total_due = print("$", str(total_payments))
+
+
+
 
 
 
