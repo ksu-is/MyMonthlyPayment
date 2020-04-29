@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: rgb(80, 15, 235);
+}
+
+/*
+ * Formatting the header area
+ */
+
+header {
+  background-color: #000000;
+  height: 45px;
+  width: 100%;
+  opacity: .9;
+  margin-bottom: 20px;
+}
+
+header h1.logo {
+  margin: 0;
+  font-size: 2.7em;
+  color: #fff;
+  text-transform: uppercase;
+  float: center;
+}
+
+header h1.logo:hover {
+  color: rgb(133,187,101);
+  text-decoration: none;
+}
+
+/*
+
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+div.Month {
+  padding: 10px 0 30px 0;
+  background-color: rgb(133,187,101);
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+div.Add {
+  padding: 10px 0 30px 0;
+  background-color: rgb(14, 161, 246);
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+h2 {
+  font-size: 3em;
+  margin-top: 50px;
+  text-align: center;
+  letter-spacing: -2px;
+}
+
+h3 {
+  font-size: 1.7em;
+  font-weight: 100;
+  margin-top: 30px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: rgb(14,9,9);
+}
+
+.menu {
+  float: right;
+  margin-top: 8px;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu li + li {
+  margin-left: 35px;
+}
+
+.menu li a {
+  color: rgb(41, 214, 244);
+  text-decoration: none;
+}

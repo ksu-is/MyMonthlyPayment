@@ -1,18 +1,6 @@
-import selenium
-from selenium import webdriver
-driver = webdriver.Chrome(executable_path = r"C:\\Users\\miley\\OneDrive- Kennesaw State University\\" +
-    "Spring '20\\App Dev\\ProjectDemos\\Project Topic\\test\\chromedriver_win32\\chromedriver.exe")
-from selenium.webdriver.common.keys import Keys
-
-chromedriver = r"C:\\Users\\miley\\OneDrive- Kennesaw State University\\",
-"Spring '20\\App Dev\\ProjectDemos\\Project Topic\\test\\chromedriver_win32\\chromedriver.exe"
-
-
-
-# request user login information and automatically enter information 
-print("Here we will need the link to the login page on the website you make payments on ")
-
-# User enters the website URL
+from flask import Flask, render_template
+app=Flask("This Month")
+import seleniumS
 website_url = input("Enter the url of the login page: ")
 driver.get(website_url)
 
@@ -48,8 +36,6 @@ total_due = sum(bills_due)
 
 
 print("$", total_due)
-
-
 
 
 
